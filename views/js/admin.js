@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
+    console.log('Combination search script loaded');
     var searchInput = document.getElementById('combination_search');
     if (!searchInput) return;
 

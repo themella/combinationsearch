@@ -24,7 +24,7 @@ class CombinationSearch extends Module
 
     public function install()
     {
-        return parent::install() && $this->registerHook('displayAdminProductsCombinationBottom');
+        return parent::install() && $this->registerHook('displayAdminProductsCombinationBottom') && $this->registerHook('actionAdminControllerSetMedia');
     }
 
     public function uninstall()

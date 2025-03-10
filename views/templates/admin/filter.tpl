@@ -1,4 +1,4 @@
-<div class="form-group">
-    <label for="combination_search">{l s='Search Combinations' mod='combinationsearch'}</label>
-    <input type="text" id="combination_search" class="form-control" placeholder="{l s='Type to filter...' mod='combinationsearch'}">
+<div class="panel">
+    <h3>{$this->trans('Filter Combinations', [], 'Modules.Combinationsearch.Admin')}</h3>
+    <input type="text" id="combination_search" placeholder="{$this->trans('Search combinations...', [], 'Modules.Combinationsearch.Admin')}">
 </div>
